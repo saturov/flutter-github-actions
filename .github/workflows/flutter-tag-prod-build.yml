@@ -31,7 +31,7 @@ jobs:
 
       - run: sh ./scripts/test/flutter_test.sh
 
-      - run: sh ./scripts/build/android/flutter_build_apk_prod.sh
+      - run: sh ./scripts/assemble/android/flutter_build_apk_prod.sh
         env:
           STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}

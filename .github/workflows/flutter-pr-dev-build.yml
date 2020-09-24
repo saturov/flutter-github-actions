@@ -32,7 +32,7 @@ jobs:
 
       - run: flutter test
 
-      - run: sh ./scripts/build/android/flutter_build_apk_dev.sh
+      - run: sh ./scripts/assemble/android/flutter_build_apk_dev.sh
 
       - uses: actions/upload-artifact@v1
         with:
